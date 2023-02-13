@@ -1,0 +1,76 @@
+
+* {
+    color:white;
+}
+
+/* 2. gradient added to header*/
+ header {
+    background-image:linear-gradient(black,grey);
+    
+}
+
+/* 5. width, background and border set  */
+.wrapper {
+    background-color:#0FA3B1;
+    margin: 0 auto;
+    width: 80%;
+    font-size:18px;
+    border-style:dashed;
+ }
+
+ /* 3. 2 filter effects added */
+ /* 4. image is also responsive */
+ /* 6. image set to 90% and centered*/
+  img {
+    width:90%;
+    justify-content:center;
+    filter:grayscale(50%) drop-shadow(8px 8px 20px black);
+    height:auto;
+  }
+  main {
+  background-size: 550px 500px;
+  background-repeat:no-repeat;
+ }
+
+ h1 {
+     animation-name:appear;
+     animation-duration:5s; 
+     text-decoration:underline;
+  }
+  
+  section {
+     padding:10px;
+     margin:10px;
+ }
+
+ .about {
+     color:#000000;
+ }
+
+ li:nth-child(odd) {
+ 
+     font-weight:bold;
+ }
+ 
+ 
+ 
+ 
+
+ 
+ @keyframes appear {
+     0%{
+         opacity:0%;
+     }
+     25%{
+         opacity:25%;
+     }
+     50%{
+         opacity:50%;
+     }
+     75%{
+         opacity:75%;
+     }
+     100%{
+         opacity:100%;
+     }
+ }
